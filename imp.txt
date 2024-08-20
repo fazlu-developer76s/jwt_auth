@@ -1,0 +1,7 @@
+aggregation pipeline mongodb
+lookup pipeline mongodb
+buffer
+cluster   
+ningne x
+wsl 
+linux 
