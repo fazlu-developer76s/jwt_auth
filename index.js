@@ -10,7 +10,7 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const app = express();
 const PORT = 5000;
-connectToMongoDB("mongodb://localhost:27017/short-url").then(() => {
+connectToMongoDB("mongodb://localhost:27017/jwt_auth").then(() => {
   console.log("mongodb connected");
 });
 app.set("view engine", "ejs");
